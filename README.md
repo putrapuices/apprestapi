@@ -1,2 +1,2 @@
 # apprestapi
-Latihan Membuata aplikasi restapi
+Latihan Membuat aplikasi restapi
