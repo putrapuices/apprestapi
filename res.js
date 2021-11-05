@@ -1,9 +1,12 @@
 'use strict'; // biar kodedatanya berjalan dengan baik
-exports.ok = function(value,res){
-    var data ={
+
+exports.ok = function(values, res){
+    var data = {
         'status':200,
-        'values':values,
+        'values':values
     };
-    res.json(data);
-    res.end();
-}
+
+    console.log(values)
+     res.json(data);
+     res.end();
+};
